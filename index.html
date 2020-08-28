@@ -11,7 +11,14 @@
       <h1>API Joker</h1>
     </header>
     <section>
-      <button class="request-joke-btn">Tell me a joke!</button>
+        <button class="request-joke-btn">Tell me a joke!</button>
+        <label for="jokeTypes">Joke by Type:</label>
+        <select name="jokesTypes" id="jokeTypes">
+          <option value="programming">Programming</option>
+          <option value="general">General</option>
+          <option value="knock-knock">Knock-Knock</option>
+          <option value="all">All</option>
+        </select>
       <p class="joke-setup">
         <!-- Joke Setup Goes Here -->
       </p>

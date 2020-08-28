@@ -4,7 +4,6 @@ import { Joke } from "./Joke.js";
 const jokeBtn = document.querySelector(".request-joke-btn");
 jokeBtn.addEventListener("click", (e) => {
   const contentSetup = document.querySelector(".joke-setup")
-  contentSetup.innerHTML = `<button class="request-joke-btn2">Tell me the punchline!</button>`
   console.log("I should be grabbing a joke now...");
   // TODO: fetch a joke from the Joke API and render it to the DOM
   getJoke().then(_ => { 

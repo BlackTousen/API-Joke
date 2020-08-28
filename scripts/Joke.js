@@ -7,5 +7,8 @@ export const Joke = (input,helper) => {
         // contentPunchline.innerHTML += 
         return `<p class="joke-punchline">${input.punchline}</p>` 
     }
-    else { return `<p class="joke-setup">${input.setup}</p>` }
+    else { return `
+    <p class="joke-setup">${input.setup}</p>
+    <button class="request-joke-btn2">Tell me the punchline!</button>
+    ` }
 }
